@@ -4,13 +4,15 @@
 
 int main(){
 
-    int N, L;
+    int N, L, S, alive;
 
 
     printf("Enter N: ");
     scanf("%d", &N);
     printf("Enter Lifes: ");
     scanf("%d", &L);
+    printf("Enter steps: ");
+    scanf("%d", &S);
 
     linkedlist *loop = cycle_c(N, 1);
     linkedlist *temp = loop;
@@ -20,21 +22,25 @@ int main(){
         temp = temp->next;
     }
 
-    linkedlist *temp = loop;
-    linkedlist *teemp_next = malloc(sizeof(linkedlist));
+    temp = loop;
 
-    for (int i = N; i > 1; i--){
-        for(int j = 1; j <=4; j++){
-            if (j == 4)
-            {
-                if (temp->life <= 0){
-                    
-                    temp->next = temp->next->next;
-                }
+    linkedlist *temp_next;
+
+    alive = N;
+
+    while(alive > 1){
+        for(int j = 3; j <= S; j++){
+                temp = temp->next;
             }
-            temp = temp->next;
+        temp->next->life--;
+        if(temp->next->life <= 0){
+            temp_next = temp->next;
+            temp->next = temp->next->next;
+            free(temp_next);
+            alive--;
         }
-    }
+        temp = temp->next;
+        }
     
     printf("%d", temp->num);
     return 0;
