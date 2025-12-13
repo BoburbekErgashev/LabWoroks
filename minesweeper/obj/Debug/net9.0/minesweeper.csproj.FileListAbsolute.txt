@@ -1,0 +1,14 @@
+D:\cvscode\minesweeper\bin\Debug\net9.0\minesweeper.exe
+D:\cvscode\minesweeper\bin\Debug\net9.0\minesweeper.deps.json
+D:\cvscode\minesweeper\bin\Debug\net9.0\minesweeper.runtimeconfig.json
+D:\cvscode\minesweeper\bin\Debug\net9.0\minesweeper.dll
+D:\cvscode\minesweeper\bin\Debug\net9.0\minesweeper.pdb
+D:\cvscode\minesweeper\obj\Debug\net9.0\minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+D:\cvscode\minesweeper\obj\Debug\net9.0\minesweeper.AssemblyInfoInputs.cache
+D:\cvscode\minesweeper\obj\Debug\net9.0\minesweeper.AssemblyInfo.cs
+D:\cvscode\minesweeper\obj\Debug\net9.0\minesweeper.csproj.CoreCompileInputs.cache
+D:\cvscode\minesweeper\obj\Debug\net9.0\minesweeper.dll
+D:\cvscode\minesweeper\obj\Debug\net9.0\refint\minesweeper.dll
+D:\cvscode\minesweeper\obj\Debug\net9.0\minesweeper.pdb
+D:\cvscode\minesweeper\obj\Debug\net9.0\minesweeper.genruntimeconfig.cache
+D:\cvscode\minesweeper\obj\Debug\net9.0\ref\minesweeper.dll
